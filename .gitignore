@@ -1,0 +1,55 @@
+# Byte-compiled files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+env/
+ENV/
+.venv/
+.pipenv/
+
+# Package builds
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Pytest
+.cache/
+
+# Logs and debug files
+*.log
+*.out
+*.err
+
+# IDE files
+.idea/
+.vscode/
+*.sublime-workspace
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks checkpoints
+.ipynb_checkpoints/
+
+# Tableau files
+*.twb
+*.twbx
+
+# Config and credential files
+*.env
+config.yaml
+secrets.json
+
+# Temporary files
+*.bak
+*.tmp
+*.swp
+*.swo
+
+# Dependency directories
+node_modules/

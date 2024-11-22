@@ -1,0 +1,23 @@
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
+[![Streamlit](https://img.shields.io/badge/Streamlit-1.2%2B-FF4B4B.svg)](https://streamlit.io)
+
+# BI Dashboard POC
+
+Modern BI solution combining three key features:
+- **Pull-based Dashboards**: Allow users to select dashboards and customize the time grouping like regular dashboards.
+- **Push-based Dashboards**: push based data and offer an alternative way to the overwhelming amonut of dashboards/plots by converting insights/explanations to  audio summary.
+- **Recommendation-based Dashboards**: Dashboard Layout based on your interaction history and usage patterns, your title and so on.
+
+## Installation
+
+```shell:
+git clone https://github.com/yourusername/bi-dashboard-poc
+cd bi-dashboard-poc
+pip install -r requirements.txt
+```
+## Run
+```shell
+streamlit run app.py
+```
+Visit [`http://localhost:8501`](http://localhost:8501) in your browser.
+
