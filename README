@@ -1,7 +1,8 @@
-[![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)](https://www.python.org/downloads/)
-[![Streamlit](https://img.shields.io/badge/Streamlit-1.2%2B-FF4B4B.svg)](https://streamlit.io)
 
-# BI Dashboard POC
+![Python](https://img.shields.io/badge/Python-3.8%2B-blue.svg)  
+![Streamlit](https://img.shields.io/badge/Streamlit-1.2%2B-FF4B4B.svg)
+
+# Demo Buisness Inteligence 2.0
 
 Modern BI solution combining three key features:
 - **Pull-based Dashboards**: Allow users to select dashboards and customize the time grouping like regular dashboards.
@@ -15,6 +16,7 @@ git clone https://github.com/yourusername/bi-dashboard-poc
 cd bi-dashboard-poc
 pip install -r requirements.txt
 ```
+
 ## Run
 ```shell
 streamlit run app.py
